@@ -180,7 +180,6 @@ hr {
 
 footer {
   height: 150px;
-  background-color: bisque;
 }
 
 .social-networks {
@@ -192,6 +191,18 @@ footer {
 .social-networks i {
   font-size: 160%;
   margin: 1%;
-  padding: 5%;
+  padding: 2%;
   color: #777777;
 }
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#photo img {
+  width: 100%;
+}
+
