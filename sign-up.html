@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
     <!-- Test Styles-->
-    <style>
-        #form {
-            clear: both;
-            background-color: bisque;
-        }
-    </style>
+    
 </head>
 <body>
     <header>
@@ -27,34 +22,35 @@
             </ul>
         </nav>
     </header>
-    <section id="form">
-        <h2>Lets get you signed up!</h2>
+    <section class="form-section">
+       
         <div>
             <form action="https://formdump.codeinstitute.net/" method="post">
+                <h2>Let's get you signed up!</h2>
                 <!--text inputs-->
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"  required><br>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="first_name"  required><br>
 
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="last_name" required><br><br>
 
-                <label for="email">Email Address:</label><br>
+                <label for="email">Email Address</label><br>
                 <input type="email" id="email" name="email_address" required><br>
 
                 <!--radio inputs group-->
                 <label for="road">Road</label><br>
-                <input type="radio" id="road" name="running_preference" required>
+                <input type="radio" id="road" name="running_preference" value="road" required>
                 <label for="trail">Trail</label><br>
-                <input type="radio" id="trail" name="running_preference">
+                <input type="radio" id="trail" name="running_preference" value ="trail">
                 <label for="both">Both</label><br>
-                <input type="radio" id="both" name="running_preference">
+                <input type="radio" id="both" name="running_preference" value="both">
                 
 
                 <!--submit button-->
-                <input type="submit" value="Let's Run">
+                <input type="submit" value="Let's Run!">
               </form> 
         </div>
-    </section>
+   </section> 
     <footer>
         <ul class="social-networks">
             
