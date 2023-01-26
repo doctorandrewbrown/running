@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <!--meta name="viewport" content="width= , initial-scale=1.0"-->
+    <title>Sign up</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Test Styles-->
+    <style>
+        #form {
+            clear: both;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h2 id="logo">Love Running</h2></a>
+        <nav>
+            <ul id="menu">
+                <li class="active"><a href="sign-up.html">Sign up</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li ><a  href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="form">
+        <h2>Lets get you signed up!</h2>
+        <div>
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                <!--text inputs-->
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"  required><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email_address" required><br>
+
+                <!--radio inputs group-->
+                <label for="road">Road</label><br>
+                <input type="radio" id="road" name="running_preference" required>
+                <label for="trail">Trail</label><br>
+                <input type="radio" id="trail" name="running_preference">
+                <label for="both">Both</label><br>
+                <input type="radio" id="both" name="running_preference">
+                
+
+                <!--submit button-->
+                <input type="submit" value="Let's Run">
+              </form> 
+        </div>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            
+            <li>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-coffee" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa fa-birthday-cake" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-bath" aria-hidden="true"></i>
+                </i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa fa-tree" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
